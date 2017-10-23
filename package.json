@@ -1,0 +1,22 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "CLI store-front app with Node.js and MySQL Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinapalace/Bamazon.git"
+  },
+  "keywords": [
+    "CLI"
+  ],
+  "author": "Justin McLaren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinapalace/Bamazon/issues"
+  },
+  "homepage": "https://github.com/chinapalace/Bamazon#readme"
+}
