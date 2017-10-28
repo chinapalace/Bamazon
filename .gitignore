@@ -2,3 +2,5 @@ node_modules
 .DS_Storerm
 instructions.md 
 bamazon.sublime-project
+.gitignore
+bamazon.sublime-project
