@@ -13,4 +13,4 @@ The Customer View first shows the current Bamazon Inventory.
 
 Then the customer is asked to select a book by ID and what quantity they would like to purchase. 
 If the book is avaialable in that quantity then an "order" is placed and the quantity is updated in the mySQL database. 
-![alt text]()
+![alt text](https://raw.githubusercontent.com/chinapalace/Bamazon/master/assets/screen_shot_3.png)
