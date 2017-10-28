@@ -18,3 +18,29 @@ var mysql = require('mysql');
 
 //------------------------------------------------
 	//UI
+var questions = [
+	{
+	 type: 'input',
+	 name: 'product_id',
+	 message: 'Which product(ID) would you like to purchase?'
+	 //filter: Number
+	},
+	{
+	 type: 'input',
+	 name: 'quantity',
+	 message: 'How many would you like to buy?',
+	 validate: function (value) {
+	 	var pass = value.match();
+	 	if (pass) {
+	 		return true;
+	 	}
+
+	 	return 'Please enter a valid amount.';
+	 }
+	}
+];
+
+inquirer.prompt(questions).then(function (answers) {
+  console.log(JSON.stringify(answers, null, '  '));
+});
+
